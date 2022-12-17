@@ -69,5 +69,8 @@
     <Build Include="dbo\Tables\AspNetRoleClaims.sql" />
     <Build Include="dbo\Tables\AspNetUserRoles.sql" />
     <Build Include="dbo\Tables\AspNetUsers.sql" />
+    <Build Include="dbo\Tables\Categories.sql" />
+    <Build Include="dbo\Tables\Products.sql" />
+    <Build Include="dbo\Tables\Suppliers.sql" />
   </ItemGroup>
 </Project>
