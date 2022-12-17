@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1" />
+    <PackageReference Include="TinyHelpers" Version="2.0.7" />
+    <PackageReference Include="TinyHelpers.EntityFrameworkCore" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+   <ProjectReference Include="..\DjStoreApi.Authentication\DjStoreApi.Authentication.csproj" />
+   <ProjectReference Include="..\DjStoreApi.Database\DjStoreApi.Database.sqlproj" />
+   <ProjectReference Include="..\DjStoreApi.Shared\DjStoreApi.Shared.csproj" />
+  </ItemGroup>
+
+
+</Project>

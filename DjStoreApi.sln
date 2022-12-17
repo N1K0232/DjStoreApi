@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjStoreApi", "src\DjStoreApi\DjStoreApi.csproj", "{D8AD1A36-4F0F-46E4-9611-31568FA1FDE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjStoreApi.DataAccessLayer", "src\DjStoreApi.DataAccessLayer\DjStoreApi.DataAccessLayer.csproj", "{BB11B944-E1A0-49C5-BC3F-C599A6901001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjStoreApi.BusinessLayer", "src\DjStoreApi.BusinessLayer\DjStoreApi.BusinessLayer.csproj", "{641120E3-B143-4E9A-88ED-36F56DCB3A86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjStoreApi.Authentication", "src\DjStoreApi.Authentication\DjStoreApi.Authentication.csproj", "{3DCCC285-AE19-4911-A636-A21E25F8076B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjStoreApi.Authorization", "src\DjStoreApi.Authorization\DjStoreApi.Authorization.csproj", "{FA21B25F-EF16-437B-B23F-07FD202823B9}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "DjStoreApi.Database", "src\DjStoreApi.Database\DjStoreApi.Database.sqlproj", "{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DjStoreApi.Shared", "src\DjStoreApi.Shared\DjStoreApi.Shared.csproj", "{5EC288EF-48E0-49C0-A911-86850B1FFE13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8AD1A36-4F0F-46E4-9611-31568FA1FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AD1A36-4F0F-46E4-9611-31568FA1FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AD1A36-4F0F-46E4-9611-31568FA1FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AD1A36-4F0F-46E4-9611-31568FA1FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB11B944-E1A0-49C5-BC3F-C599A6901001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB11B944-E1A0-49C5-BC3F-C599A6901001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB11B944-E1A0-49C5-BC3F-C599A6901001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB11B944-E1A0-49C5-BC3F-C599A6901001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641120E3-B143-4E9A-88ED-36F56DCB3A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641120E3-B143-4E9A-88ED-36F56DCB3A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641120E3-B143-4E9A-88ED-36F56DCB3A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641120E3-B143-4E9A-88ED-36F56DCB3A86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCCC285-AE19-4911-A636-A21E25F8076B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCCC285-AE19-4911-A636-A21E25F8076B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCCC285-AE19-4911-A636-A21E25F8076B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCCC285-AE19-4911-A636-A21E25F8076B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA21B25F-EF16-437B-B23F-07FD202823B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA21B25F-EF16-437B-B23F-07FD202823B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA21B25F-EF16-437B-B23F-07FD202823B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA21B25F-EF16-437B-B23F-07FD202823B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1584A365-A32E-4ED8-802F-7F9EA9F11D9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5EC288EF-48E0-49C0-A911-86850B1FFE13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC288EF-48E0-49C0-A911-86850B1FFE13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC288EF-48E0-49C0-A911-86850B1FFE13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC288EF-48E0-49C0-A911-86850B1FFE13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {445F4C6E-4A6D-4ACB-911C-EC910CC65F4C}
+	EndGlobalSection
+EndGlobal
