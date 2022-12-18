@@ -73,4 +73,7 @@
     <Build Include="dbo\Tables\Products.sql" />
     <Build Include="dbo\Tables\Suppliers.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="DjStoreApi.Database.publish.xml" />
+  </ItemGroup>
 </Project>

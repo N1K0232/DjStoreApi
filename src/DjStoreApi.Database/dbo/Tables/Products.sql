@@ -8,6 +8,7 @@
     [Model] NVARCHAR(100) NOT NULL,
     [Color] NVARCHAR(20) NOT NULL,
     [UnitsInStock] INTEGER NOT NULL,
+    [Price] DECIMAL(10,2) NOT NULL,
     [Description] NVARCHAR(4000) NOT NULL,
     [CreationDate] DATETIME NOT NULL,
     [UpdatedDate] DATETIME NULL,
