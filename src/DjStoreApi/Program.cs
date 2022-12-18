@@ -2,6 +2,7 @@ using System.Net.Mime;
 using System.Reflection;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using DjStoreApi.DataAccessLayer;
 using DjStoreApi.Documentation;
 using FluentValidation.AspNetCore;
 using Hellang.Middleware.ProblemDetails;
@@ -114,6 +115,9 @@ void ConfigureServices(IServiceCollection services, IConfiguration configuration
     });
 
     var connectionString = configuration.GetConnectionString("SqlConnection");
+
+    services.AddSqlServer<DataContext>(connectionString);
+    services.AddScoped<IDataContext>(services => services.GetRequiredService<DataContext>());
 
     services.AddHealthChecks().AddAsyncCheck("sql", async () =>
     {
